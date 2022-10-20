@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+    <link rel="stylesheet" href="../inturmentos.css/index.css">
+    <!--estilo de letras de la pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,700;1,800&display=swap" rel="stylesheet">
+<!--¡'¡¡'¡'¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡-->
+<!--aca va el fonts aswer que es para los iconos esto tiene que ir en una etiqueta script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.js"></script>
+
+</head>
+<body>
+    
+    <!--dentro de la etiqueta header tenemso 
+    menu - logo - titu o titular el boton y la imagen  -->
+
+<!--este div va contener la pagian para que nunca exceda 
+    las mediadas asi nada toco lso bordes ecepto en las iagenes del
+    menud e clases
+-->
+
+<!--luego tenemos el div menu donde vamos a tener
+logo y menu-->
+    <header>
+<div class="contendedor">
+<div class="menu">
+    <img  class="logo-img" src="../fotos/logo1.jpg" alt="">
+<nav>
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">classes</a></li>
+    <li><a href="">profesores</a></li>
+    <li><a href="">contacto</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<!--titulo del menu y que esta sobre la imagen de fondo de menu-->
+<div class="titular">
+    <h1>START YOUR FREE WOEKOUT WITH US.</h1>
+    <!--boton que esta sobre la foto en el menu-->
+    <a   class="unete"  href="">Unete Ya</a>
+</div>
+    </header>
+
+    <!--la parte de las tarjetas es la que sigue dentro de una
+    section , vamso a tener un div que contenga las tarjetas 
+y un div para cada tarjeta-->
+    <section id="tarjetas" >
+        <div class="contenedor ">
+<div class="contenedor-tarjetas">
+    <div class="tarjeta">
+        <img    class="fotos" src="../estilo , letra/icono1.gif" alt="">
+        <h3>Gymnacio</h3>
+        <P>Es hora de comenzar a moverce</P>
+        <a href="">iniciar ya</a>
+    </div>
+
+
+
+
+        <div  id="segunda-tarjeta" class="contenedor ">
+<div class="contenedor-tarjetas">
+    <div class="tarjeta">
+        <img class="fotos" src="../estilo , letra/pesa.gif" alt="">
+        <h3>Cardio y Funcional</h3>
+        <P>Es hora de comenzar a moverce</P>
+        <a href="">iniciar ya</a>
+    </div>
+
+
+
+
+   
+        <div   class="contenedor ">
+<div class="contenedor-tarjetas">
+    <div class="tarjeta">
+        <img  class="fotos" src="../estilo , letra/icono2.gif" alt="">
+        <h3>Yoga y Estiramientos</h3>
+        <P>Es hora de comenzar a moverce</P>
+        <a href="">iniciar ya</a>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!--tablas con los horarios de clase-->
+    <section id="classes"  >
+        <div class="contenedor">
+            <h2>Clases y Horarios</h2>
+            <table><!--asi creamos una tabla-->
+                <th>Hora</th><!--titulares de la tabla-->
+                 <th>Lunes</th>
+                 <th>Martes</th>
+                 <th>Miercoles</th>
+                 <th>Jueves</th>
+                 <th>Viernes</th>
+
+                 <tr class="gris"><!--para las filas-->
+<td class="horario">07:15-08:15</td> <!--patra cada dato en la columna de la tabla-->
+               <td><p class="negrita">Yoga</p><p>profe</p> </td>
+           <td><p class="negrita">Cardio</p> <p>profe</p></td>
+           <td><p class="negrita">Funcional</p> <p>profe</p></td>
+           <td><p class="negrita" >Estiramientos</p> <p>profe</p></td>
+           <td><p class="negrita">cardio</p><p>profe</p></td>
+        <!--ponemos una p para que cada palabra tenga un rengolon
+        esta es la primera fila de la tabla-->
+                 </tr>
+<tr>
+<td class="horario">10:00-11:00</td>
+<td><p class="negrita" >Yoga</p><p>profe</p> </td>
+<td><p class="negrita" >Cardio</p> <p>profe</p></td>
+<td><p class="negrita">zumba</p> <p>profe</p></td>
+<td><p  class="negrita">Estiramientos</p> <p>profe</p></td>
+<td><p class="negrita" >cardio</p><p>profe</p></td>
+</tr>
+<!--fin d ela segunda fila-->         
+
+<tr class="blanco">
+    <td class="horario">13:15-14:15</td>
+    <td><p class="negrita" >rope training</p><p>profe</p> </td>
+    <td><p class="negrita" >Cardio</p><p>profe</p></td>
+    <td><p class="negrita">zumba</p> <p>profe</p></td>
+    <td><p class="negrita" >total body</p> <p>profe</p></td>
+    <td><p class="negrita" >baile</p><p>profe</p></td>
+    </tr>
+    <!--fin de la tercer fila-->
+
+
+    <tr class="gris">
+        <td class="horario">16:15-17:15</td>
+        <td><p class="negrita" >rope training</p><p>profe</p> </td>
+        <td><p class="negrita" >runing</p> <p>profe</p></td>
+        <td><p class="negrita" >zumba</p> <p>profe</p></td>
+        <td><p  class="negrita" >total body</p> <p>profe</p></td>
+        <td><p class="negrita" >baile</p><p>profe</p></td>
+        </tr>
+        <!--fin de la cuarta fila-->
+            </table> 
+        </div>
+    </section>
+
+    <!--galeria animada de fotos-->
+<section id="galeria">
+<div  class="foto">
+    <img id="clase1" class="img_hover" src="../fotos/cla1.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase1</h4> 
+    </div>
+</div>
+
+
+<div class="foto">
+    <img  id="clase2" class="img_hover" src="../fotos/clas2.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase2</h4> 
+    </div>
+</div>
+
+
+<div  class="foto">
+    <img   id="clase3" class="img_hover" src="../fotos/clase3.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase3</h4> 
+    </div>
+</div>
+
+
+<div class="foto">
+    <img id="clase4" class="img_hover" src="../fotos/cla4.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase4</h4> 
+    </div>
+</div>
+
+<div class="foto">
+    <img   class="img_hover" src="../fotos/clas5.jpg" alt=""  id="clase5">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase5</h4> 
+    </div>
+</div>
+
+
+<div class="foto">
+    <img  id="clase6"  class="img_hover" src="../fotos/clas6.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase6</h4> 
+    </div>
+</div>
+
+<div class="foto">
+    <img  id="clase7" class="img_hover" src="../fotos/clas7.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase7</h4> 
+    </div>
+</div>
+
+
+<div class="foto">
+    <img   id="clase8"  class="img_hover" src="../fotos/clas8.jpg" alt="">
+    <div class="oculto"><!--lo que va aparecer cuando toquemos la foto esta dentro d eeste div-->
+       <h4>clase8</h4> 
+    </div>
+</div>
+</section>
+
+<!--ultima parte de la pagina  la de contacto-->
+
+<section id="contact">
+<div class="contenedor">
+    <h2>Contactanos</h2>
+    <div class="info">
+        <p><i class="fa-solid fa-phone"></i>+(123) 456 -7890</p>
+        <p><i class="fa-solid fa-envelope"></i>info@gmay.com</p>
+    </div>
+    <a href="">CONTACT</a>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--instalamos jquery-->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <!--realizamos un codigo jquery-->
+<script>
+    /*iniciamos un codigo jquery con signo de dolar parentesis documente con la funcion redy y en parentecis que funccion aplicamos cuando
+    el documento este listo*/
+    
+
+     $(document).ready(function(){ 
+
+        $(".foto").hover(function(){ 
+            $(this).find(".oculto").fadeIn();
+     $(this).find(".img_hover").addClass("agrandar");
+        },function(){
+            $(this).find(".oculto").fadeOut() ;
+            $(this).find(".img_hover").removeClass("agrandar");
+        })
+
+     })
+ /*segunda parte de la animacion que la imagen haga zoom al pasar
+     el mause por enzima*/
+
+
+     /*dalre animacion al menu para que sea despelgable*/
+     
+</script>
+
+
+
+
+
+</body>
+</html>

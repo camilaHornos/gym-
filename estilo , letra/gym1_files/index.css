@@ -1,0 +1,201 @@
+/*estos son los estilso generales de la  pagina*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+ }
+
+ .contenedor{
+width: 90%;
+max-width: 1280%;
+margin: auto;
+}
+
+
+li {
+list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+
+/*¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡*/
+
+
+header{
+background: url(../fotos/fondo.jpg) /*imagen de encabezado*/ ;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover ;
+
+}
+
+.logo-img{
+width: 110px;
+}
+
+
+
+
+.menu{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header ul {
+display: flex; /*posisionamos las letras del menu*/
+}
+
+
+header ul li {  /*separamso entre si las letras del menu*/
+ margin: 0 20px;
+    }
+
+    header ul li a { /*le damos color a las letras del menu*/
+     color: rgb(9, 49, 84);
+           }
+
+
+           .titular{
+text-align: center;/*centramos el div titular*/
+margin: top 40vh;/*vh es la altura del navegador asi si achico a o agrando la ventana el titula simpr eva tener 40vh*/ 
+color: rgb(167, 199, 93);
+        }
+
+h1{
+font-size: 120px;
+font-style: italic;
+width: 90%;/*simpre que le colocamos un width a un elemento este se va a la izquierada asi que*/
+margin: auto;/*centramos el elemnto que se va a la izuqiera con ediv en este caso el titulo el titular el texto grande*/
+margin: bottom 95px; 
+width: 40%;
+}
+
+.titular a /*el boton debajo del titular*/{
+background-color: rgb(18, 17, 18);/*fon del boton*/
+padding: 10px 30px;
+}
+
+
+/*esta seccion es las etiquetas de abajo del titulo*/
+
+
+.fotos{
+width: 120px;
+}
+
+
+.contenedor-tarjetas{
+        display: flex;
+        justify-content: center;
+}
+
+.tarjeta{
+text-align: center;
+box-shadow: -1px 0px 5px 
+#0000001f;
+width: 50%;
+margin-top: -100px;/*esto es para que las tarjetas esten sobre la foto*/
+background-color: #a9afaf;
+border-radius: 6px;
+}
+
+#segunda-tarjeta{
+margin: 0 80px;
+}
+
+.tarjeta p{
+font-size: 15px;
+}
+
+.tarjeta a{
+color: black;
+text-decoration: underline;
+font-size: 11px;
+        }
+
+  .tarjeta h3{
+  font-style: italic;
+  }
+                
+
+
+
+                /*tablas con las clases*/
+
+
+
+ table{
+width: 100%;
+text-align: center;
+  }
+
+  #classes{/*esta es la secicon de las tabla sosea todas las tablas vamos a ponerle color al fondo*/
+background-color: #a9afaf;
+margin-top:-200px ;/*sunir las tablas asi las tarjetas*/
+padding-top: 200px;/*agrandamos el espacio de las tabla sy las tarjetas para que el titulo de la tabla y tarjeta no se amontone*/
+  }
+
+/*ahora vamos a ponerle lso colores a cada fondo de cuadrado de tabla y las decoraciones*/
+  .blanco , th{
+background-color: #e0e1e1;
+}
+
+th{
+padding: 20px 0;
+font-style: italic;
+color: dimgrey;
+}
+
+
+.gris{
+background-color: rgb(82, 131, 133);
+}
+
+.negrita{
+font-weight: bolder;
+color: black;
+}
+
+.horario{
+font-style: italic;
+color: dimgrey;
+}
+
+p{
+color: dimgrey;
+
+}
+
+h2{
+text-align: center;
+font-size: 60PX;
+font-style: italic;
+color: rgb(0, 0, 0);
+}
+
+/*galeria animada*/
+
+#galeria{
+display: flex;
+flex-wrap: wrap;
+}
+
+#galeria img{
+width: 100%;
+ }
+
+
+    
+#galeria .foto{
+  width: 25%;
+  }
+        
+
+
+
